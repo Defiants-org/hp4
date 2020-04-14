@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #d45500ff !important;
+    color: #fc8313ff !important;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #d45500ff !important;
+    color: #fc8313ff !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #d45500ff !important;
+    color: #fc8313ff !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #fh5co-header #navbar li a:hover {
-  color: #d45500ff;
+  color: #fc8313ff;
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #d45500ff;
+  color: #fc8313ff;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #d45500ff;
+  color: #fc8313ff;
   	    margin-top: 10px;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
@@ -328,18 +328,18 @@ h1, h2, h3, h4, h5, h6 {
   	    margin-top: 10px;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #d45500ff;
+  color: #fc8313ff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #d45500ff;
+  color: #fc8313ff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #d45500ff;
+  background-color: #fc8313ff;
 }
 #fh5co-header .navbar-default {
   border: transparent;
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #d45500ff;
+  color: #fc8313ff;
   font-style: normal;
 }
 #fh5co-header a {
@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-white {
-  background-color: #d45500ff;
+  background-color: #fc8313ff;
   color: #fff;
   border-color: rgba(255, 255, 255, 0.12);
 }
@@ -1300,7 +1300,7 @@ padding: 50px 0 100px 0;
   display: block;
   width: 80px;
   height: 2px;
-  background: #d45500ff;
+  background: #fc8313ff;
   left: 0%;
   margin-left: 0px;
   bottom: 0;
@@ -1311,7 +1311,7 @@ padding: 50px 0 100px 0;
   display: block;
   width: 80px;
   height: 2px;
-  background: #d45500ff;
+  background:#fc8313ff;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -1346,7 +1346,7 @@ padding: 50px 0 100px 0;
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #d45500ff;
+  background: #fc8313ff;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -1360,18 +1360,18 @@ padding: 50px 0 100px 0;
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #d45500ff;
+  color: #fc8313ff;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #d45500ff;
+  background: #fc8313ff;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #d45500ff;
+  background: #fc8313ff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1491,7 +1491,7 @@ padding: 50px 0 100px 0;
 }
 
 .btn.btn-primary {
-  background: #d45500ff;
+  background:#fc8313ff;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -1501,7 +1501,7 @@ padding: 50px 0 100px 0;
   background: #52d3aa;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #d45500ff !important;
+  background: #fc8313ff !important;
   color: #fff;
   outline: none !important;
 }

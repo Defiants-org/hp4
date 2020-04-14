@@ -32,12 +32,23 @@
 
 	//////////////////////////////////////////////////////
 	 -->
-
-	 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	 <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	 <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	 <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	 <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	 <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	 <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	 <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
 	 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 	 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	 <link rel="manifest" href="/site.webmanifest">
-
+	 <link rel="manifest" href="/manifest.json">
+	 <meta name="msapplication-TileColor" content="#ffffff">
+	 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	 <meta name="theme-color" content="#ffffff">
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="" />
@@ -365,7 +376,7 @@ margin: 0 1px 0 1px !important;
 			<div class="text-wrap">
 				<div class="text-inner">
 
-															<div id="card" class="card text-center to-animate" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); margin: 0 120px 0 120px; padding: 0 50px 0 50px;background-color: #d45500ff; text-align: center; color: #fff;">
+															<div id="card" class="card text-center to-animate" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); margin: 0 120px 0 120px; padding: 0 50px 0 50px;background-color: #fc8313ff; text-align: center; color: #fff;">
 												<br><br>
 																<div class="card-body">
 																	<h2> 	<i class="fh5co-intro-icon icon-umbrella"></i> <b>Snelle aanlevering voor spoed pagina's betreffende COVID-19</b></h2> <br>
@@ -585,28 +596,33 @@ margin: 0 1px 0 1px !important;
 					</ul>
 				</div>
 
-				<div class="col-md-6 to-animate">
-					<h3>Contact Form</h3>
-					<div class="form-group ">
-						<label for="name" class="sr-only">Naam</label>
-						<input id="name" class="form-control" placeholder="Naam" type="text">
+				<form action="//formspree.io/gino.joeweb@gmail.com" method="post">
+					<div class="col-md-6 to-animate">
+						<h3>Contact Form</h3>
+						<div class="form-group ">
+							<label for="name" class="sr-only">Naam</label>
+							<input id="name" name="name" class="form-control" placeholder="Naam" type="text">
+						</div>
+						<div class="form-group ">
+							<label for="email" class="sr-only">Email</label>
+							<input id="email" name="_replyto" class="form-control" placeholder="Email" type="email">
+						</div>
+						<div class="form-group ">
+							<label for="phone" class="sr-only">Telefoon</label>
+							<input id="phone" class="form-control" placeholder="Telefoon" type="text">
+						</div>
+						<div class="form-group ">
+							<label for="message" class="sr-only">Boodschap</label>
+							<textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Boodschap"></textarea>
+						</div>
+						<div class="form-group gradient-buttons">
+							<input class="btn btn-primary btn-lg" value="Verzend" type="submit">
+						</div>
 					</div>
-					<div class="form-group ">
-						<label for="email" class="sr-only">Email</label>
-						<input id="email" class="form-control" placeholder="Email" type="email">
-					</div>
-					<div class="form-group ">
-						<label for="phone" class="sr-only">Telefoon</label>
-						<input id="phone" class="form-control" placeholder="Telefoon" type="text">
-					</div>
-					<div class="form-group ">
-						<label for="message" class="sr-only">Boodschap</label>
-						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Boodschap"></textarea>
-					</div>
-					<div class="form-group gradient-buttons">
-						<input class="btn btn-primary btn-lg" value="Verzend" type="submit">
-					</div>
-				</div>
+						 <input type="text" name="_gotcha" style="display:none" />
+				</form>
+
+
 			</div>
 
 		</div>
