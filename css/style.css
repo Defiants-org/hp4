@@ -719,7 +719,7 @@ padding: 50px 0 100px 0;
 #fh5co-intro .fh5co-block > .overlay-darker {
   z-index: 8;
   opacity: .5;
-  background: #474747;
+  background: #fc8313ff;
   position: absolute;
   left: 0;
   right: 0;
