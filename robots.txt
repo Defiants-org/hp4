@@ -1,3 +1,5 @@
 
 User-agent: Googlebot
 Disallow: /privacybeleid.md
+
+Sitemap: https://ginjo.io/sitemap.xml
