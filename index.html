@@ -11,11 +11,14 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163701186-1"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	  gtag('config', 'UA-163701186-1');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-163701186-1');
 	</script>
 
 
@@ -26,10 +29,11 @@
 	<meta name="description" content="We zijn een bende freelancers met expertise in webdesign, copywriting, video promotie en grafisch ontwerp." />
 	<meta name="keywords" content="webdesign, copywriting, video promotie, animaties, seo, grafisch ontwerp." />
 	<meta name="author" content="ginjo.io" />
-  <meta name=”robots” content=”index, follow”>
-<!--	canonical tag: -->
+	<meta name=”robots” content=”index, follow”>
+	<link rel="canonical" href="https://ginjo.io/index.html">
+	<!--	canonical tag: -->
 
-<link rel="canonical" href="http://ginjo.io/" />
+	<link rel="canonical" href="http://ginjo.io/" />
 
 	<!--
 	//////////////////////////////////////////////////////
@@ -45,12 +49,12 @@
 	//////////////////////////////////////////////////////
 	 favicon-->
 
-	 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="" />
@@ -100,11 +104,10 @@
 
 
 	<style>
+		html {
+			scroll-behavior: smooth !important;
+		}
 
-
-	html {
- scroll-behavior: smooth !important;
-}
 		/* For demo purpose only */
 
 		/* For Demo Purposes Only ( You can delete this anytime :-) */
@@ -226,51 +229,53 @@
 
 
 
-	button:focus {
-	  outline: none !important;
-	}
-	.btn {
-	  border-radius: 2px;
-	  border: 0;
-	  transition: .2s ease-out;
-	  color: #fff;
-	  margin: 6px;
-	  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-	}
-
-	.btn:hover {
-	  color: #fff;
-	  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-	}
-
-	.btn:active, .btn:focus, .btn.active {
-	  outline: 0;
-	  color: #fff;
-	}
-
-
-	.modal-dialog {
-  margin-top: 0rem;
-  max-width: 100%;
+		button:focus {
+			outline: none !important;
 		}
 
-.card h2 {
-color: #fff;
-font-weight: 400;
-  }
+		.btn {
+			border-radius: 2px;
+			border: 0;
+			transition: .2s ease-out;
+			color: #fff;
+			margin: 6px;
+			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+		}
 
-	.card h3 {
-	color: #fff;
-	font-weight: 300;
-	  }
+		.btn:hover {
+			color: #fff;
+			box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+		}
+
+		.btn:active,
+		.btn:focus,
+		.btn.active {
+			outline: 0;
+			color: #fff;
+		}
+
+
+		.modal-dialog {
+			margin-top: 0rem;
+			max-width: 100%;
+		}
+
+		.card h2 {
+			color: #fff;
+			font-weight: 400;
+		}
+
+		.card h3 {
+			color: #fff;
+			font-weight: 300;
+		}
 
 		@media screen and (max-width: 768px) {
 			.card {
-margin: 0 1px 0 1px !important;
- 		   }
+				margin: 0 1px 0 1px !important;
+			}
 
 		}
-
 	</style>
 
 
@@ -306,22 +311,7 @@ margin: 0 1px 0 1px !important;
 						<li><a href="#" data-nav-section="services"><span>Diensten</span></a></li>
 						<li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
 
-						<!--		<li>
-							<a class="nav-link smoth-scroll" href="#fh5co-home">Jouw noden</a>
-						</li>
-						<li>
-							<a class="nav-link smoth-scroll" href="#fh5co-intro">Over ons</a>
-						</li>
-						<li>
-							<a class="nav-link smoth-scroll" href="#fh5co-services">Diensten</a>
-						</li>
-						<li>
-							<a class="nav-link smoth-scroll" href="#fh5co-contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-
-			<!-- </div> -->
+						<!-- </div> -->
 			</nav>
 		</div>
 	</header>
@@ -342,7 +332,7 @@ margin: 0 1px 0 1px !important;
 		</div>
 	</div>
 
-	<section id="banner"  data-section="home" class="banner-area banner-1">
+	<section id="banner" data-section="home" class="banner-area banner-1">
 
 
 
@@ -378,21 +368,22 @@ margin: 0 1px 0 1px !important;
 			<div class="text-wrap">
 				<div class="text-inner">
 
-															<div id="card" class="card text-center to-animate" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); margin: 0 120px 0 120px; padding: 0 50px 0 50px;background-color: #fc8313ff; text-align: center; color: #fff;">
-												<br><br>
-																<div class="card-body">
-																	<h2> 	<i class="fh5co-intro-icon icon-umbrella"></i> <b>Snelle aanlevering voor spoed pagina's betreffende COVID-19</b></h2> <br>
-																	<h3>Ook in deze tijd denkt Ginjo met u mee. Heeft u snel een (extra) website of pagina nodig, of misschien
-									een korte video animatie, dan kunnen we dat binnen zeer korte tijd voor uw aanleveren.</h3>
-									<br><br>
-																</div>
+					<div id="card" class="card text-center to-animate"
+						style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); margin: 0 120px 0 120px; padding: 0 50px 0 50px;background-color: #fc8313ff; text-align: center; color: #fff;">
+						<br><br>
+						<div class="card-body">
+							<h2> <i class="fh5co-intro-icon icon-umbrella"></i> <b>Snelle aanlevering voor spoed pagina's betreffende COVID-19</b></h2> <br>
+							<h3>Ook in deze tijd denkt Ginjo met u mee. Heeft u snel een (extra) website of pagina nodig, of misschien
+								een korte video animatie, dan kunnen we dat binnen zeer korte tijd voor uw aanleveren.</h3>
+							<br><br>
+						</div>
 
-															</div>
+					</div>
 
-<br><br>
+					<br><br>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
-						<h1 class="to-animate">Wat kunnen we voor jou betekenen?</h1>
+							<h1 class="to-animate">Wat kunnen we voor jou betekenen?</h1>
 							<h2 class="to-animate">We werken op een open wijze, betrokken in jouw onderneming rekening houdend met je budget, met als doel de groei van je website zo duurzaam mogelijk te maken.</a></h2>
 						</div>
 					</div>
@@ -408,8 +399,8 @@ margin: 0 1px 0 1px !important;
 								</div>
 							</div>
 							<div class="col-lg-6 col-sm-6 col-md-6">
-								<div class="intro-box">
 
+								<div class="intro-box">
 									<h2 class="to-animate"> <b>Betrokkenheid</b> </h2>
 									<p class="to-animate">We hebben net als jouw een enorme passie in het realiseren van een goed draaiende onderneming. In een designproces is het daarom ook essentieel dat we snappen hoe we het beste jouw doelgroep kunnen aanspreken.
 									</p>
@@ -598,8 +589,7 @@ margin: 0 1px 0 1px !important;
 					</ul>
 				</div>
 
-				<form  action="https://formspree.io/xaydvjnp"
-method="POST">
+				<form action="https://formspree.io/xaydvjnp" method="POST">
 					<div class="col-md-6 to-animate">
 						<h3>Contact Form</h3>
 						<div class="form-group ">
@@ -622,10 +612,10 @@ method="POST">
 							<input class="btn btn-primary btn-lg" value="Verzend" type="submit">
 						</div>
 					</div>
-						 <input type="text" name="_gotcha" style="display:none" />
+					<input type="text" name="_gotcha" style="display:none" />
 				</form>
 
-<!-- By default, after submitting a form the user is redirected to the Formspree "Thank You" page. You can redirect the user to an alternative page on your own website by adding a hidden input tag with a name="_next" attribute. The value of the attribute should be the full URL of your thank you page.
+				<!-- By default, after submitting a form the user is redirected to the Formspree "Thank You" page. You can redirect the user to an alternative page on your own website by adding a hidden input tag with a name="_next" attribute. The value of the attribute should be the full URL of your thank you page.
 
 For example:
 
@@ -688,9 +678,9 @@ Be sure to include the http:// or https:// prefix. -->
 	<script src="js/google_map.js"></script>
 
 	<script>
-	$(document).ready(function() {
-	  $('#cookieModal').modal('show');
-	});
+		$(document).ready(function() {
+			$('#cookieModal').modal('show');
+		});
 	</script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
