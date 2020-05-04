@@ -570,7 +570,7 @@ INner Pages
 
 /*------------------------------------------------------------------------------------------------------------------------------- HOME ----------*/
 
-#home {
+#fh5co-home {
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
@@ -580,7 +580,7 @@ INner Pages
   color: #fff;
   overflow: hidden;
 }
-#home .gradient {
+#fh5co-home .gradient {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -601,45 +601,45 @@ INner Pages
 }
 
 
-#home, #home .text-wrap {
+#fh5co-home, #fh5co-home .text-wrap {
 padding: 50px 0 100px 0;
 }
 
 @media screen and (max-width: 768px) {
-  #home, #home .text-wrap {
+  #fh5co-home, #fh5co-home .text-wrap {
   padding: 50px 0 100px 0;
   }
 }
 
-#home .text-wrap {
+#fh5co-home .text-wrap {
   display: table;
   width: 100%;
   position: relative;
   z-index: 4;
 }
-#home .text-inner {
+#fh5co-home .text-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-#home .text-inner a {
+#fh5co-home .text-inner a {
   color: white;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#home .text-inner a:hover, #home .text-inner a:active, #home .text-inner a:focus {
+#fh5co-home .text-inner a:hover, #fh5co-home .text-inner a:active, #fh5co-home .text-inner a:focus {
   text-decoration: none;
   color: white;
   border-bottom: 1px dashed white;
 }
-#home .text-inner h1 {
+#fh5co-home .text-inner h1 {
   font-size: 50px;
   color: white;
   margin: 0 0 20px 0;
 }
-#home .text-inner h2 {
+#fh5co-home .text-inner h2 {
   font-size: 28px;
   line-height: 38px;
   font-weight: 300;
